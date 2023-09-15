@@ -150,9 +150,8 @@ DELETE http://localhost:2000/api/65043ac49aae4750610c8c96
 
 
 - The API assumes that the MongoDB database is running locally.
-- Validation checks for input data are limited to basic checks (e.g., required fields, data types).
 - Authentication and Authorization are not implemented in this API.
-- String and alphabetical validation is set up for the request body.
+- String validation is set up for the request body.
 
 
 ## UML Diagram
