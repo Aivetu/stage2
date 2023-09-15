@@ -6,7 +6,8 @@ const UserSchema = schema({
     name:{
         type:String,
         required:true,
-        unique:true
+        unique:true,
+        
     }
     
 })
